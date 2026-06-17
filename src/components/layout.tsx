@@ -6,12 +6,20 @@ export const Layout = ({ children }: any) => {
     return (
         <>
 
-            <Navbar />
+            <div className="flex flex-col min-h-screen">
 
-            {children}
+                <Navbar />
 
-            <Footer />
-            
+                <div className="flex-grow">
+
+                    {children}
+
+                </div>
+
+                <Footer />
+                
+            </div>
+
         </>
     );
 

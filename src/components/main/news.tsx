@@ -11,7 +11,17 @@ export const News = () => {
                     Latest News
                 </h1>
 
-                <div className="flex flex-row gap-[10px] items-stretch justify-center phone:flex-wrap overflow-x-hidden">
+                <div className="grid grid-cols-2 gap-[10px] items-stretch justify-center phone:flex-wrap overflow-x-hidden">
+
+                    <NewsCard
+                        title={"Updated Site Design"}
+                        date={"18th June 2026"}
+                        description={
+                            <>
+                                A new site design has been published to make the service easier to use.
+                            </>
+                        }
+                    />
 
                     <NewsCard
                         title={"New Site Design"}
@@ -28,7 +38,7 @@ export const News = () => {
                         date={"7th May 2022"}
                         description={
                             <>
-                                Expresslines is now operating both BDBA services - the 855 and PS1. Please contact <Link href="mailto:membershipsec@bdba.org.uk">membershipsec@bdba.org.uk</Link> for information.
+                                Expresslines is now operating both BDBA services - the 855 and PS1. Please contact <Link className="underlined-link" href="mailto:membershipsec@bdba.org.uk">membershipsec@bdba.org.uk</Link> for information.
                             </>
                         }
                     />

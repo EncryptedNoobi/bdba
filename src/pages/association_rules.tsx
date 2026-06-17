@@ -41,7 +41,7 @@ export const AssociationRules = () => {
 
                         <h1 className="text-[30px] font-semibold">Rules</h1>
 
-                        <ol className="list-decimal list-inside ps-5">
+                        <ol className="list-decimal ps-5 space-y-2">
                             <li>An association shall be promoted called the Biggleswade and District Bus Association.</li>
                             <li>The object of the Association is defined in clause 2 of the Constitution.</li>
                             <li>It is intended that the administrative arrangements be kept to a minimum to avoid a heavy workload on the Honorary Officers and that the Association will be managed by a Committee as set out in the Constitution.</li>
