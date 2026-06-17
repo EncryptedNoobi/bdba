@@ -39,22 +39,16 @@ export const Navbar = () => {
                             <Dropdown.Popover>
                                 <Dropdown.Menu>
 
-                                    <Dropdown.Item>
-                                        <a href="/faqs" className="w-full h-full">
-                                            FAQs
-                                        </a>
+                                    <Dropdown.Item href="/faqs">
+                                        FAQs
                                     </Dropdown.Item>
 
-                                    <Dropdown.Item>
-                                        <a href="/committee" className="w-full h-full">
-                                            Committee
-                                        </a>
+                                    <Dropdown.Item href="/committee">
+                                        Committee
                                     </Dropdown.Item>
                                     
-                                    <Dropdown.Item>
-                                        <a href="/associatrion-rules" className="w-full h-full">
-                                            Association Rules
-                                        </a>
+                                    <Dropdown.Item href="/association-rules">
+                                        Association Rules
                                     </Dropdown.Item>
 
                                 </Dropdown.Menu>
@@ -73,11 +67,11 @@ export const Navbar = () => {
                             </Button>
                         </a>
 
-                        <a href="/other-info">
+                        {/*<a href="/other-info">
                             <Button variant="secondary">
-                                Other-info
+                                Other Info
                             </Button>
-                        </a>
+                        </a>*/}
                     </div>
 
                 </div>

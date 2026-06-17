@@ -1,4 +1,5 @@
 import { Link } from "@heroui/react"
+import { MdOutlineOpenInNew } from "react-icons/md"
 
 export const AboutUs = () => {
 
@@ -15,12 +16,12 @@ export const AboutUs = () => {
 
                     <p>
                         The Biggleswade & District Bus Association is run by Parent Volunteers for parents whose children attend
-                        <Link className="underlined-link" href="http://www.bedfordschool.org.uk/">Bedford School</Link>,
-                        <Link className="underlined-link" href="http://www.bedfordgirlsschool.co.uk/">Bedford Girls School</Link>,
-                        <Link className="underlined-link" href="http://www.bedmod.co.uk/">Bedford Modern School</Link>, and
-                        <Link className="underlined-link" href="https://bedfordgreenacre.co.uk/">Bedford Greenacre School</Link> (formerly
-                        <Link className="underlined-link" href="http://www.rushmoorschool.co.uk/">Rushmoor School</Link> and
-                        <Link className="underlined-link" href="http://www.standrewsschoolbedford.com/">St Andrew's School</Link>.)
+                        <Link className="underlined-link gap-[5px]" href="http://www.bedfordschool.org.uk/">Bedford School <MdOutlineOpenInNew /></Link>,
+                        <Link className="underlined-link gap-[5px]" href="http://www.bedfordgirlsschool.co.uk/">Bedford Girls School <MdOutlineOpenInNew /></Link>,
+                        <Link className="underlined-link gap-[5px]" href="http://www.bedmod.co.uk/">Bedford Modern School <MdOutlineOpenInNew /></Link>, and
+                        <Link className="underlined-link gap-[5px]" href="https://bedfordgreenacre.co.uk/">Bedford Greenacre School <MdOutlineOpenInNew /></Link> (formerly
+                        <Link className="underlined-link gap-[5px]" href="http://www.rushmoorschool.co.uk/">Rushmoor School <MdOutlineOpenInNew /></Link> and
+                        <Link className="underlined-link gap-[5px]" href="http://www.standrewsschoolbedford.com/">St Andrew's School <MdOutlineOpenInNew /></Link>.)
                     </p>
 
                     <p>
@@ -38,11 +39,11 @@ export const AboutUs = () => {
                     </ul>
 
                     <p>
-                        Please contact one of our <Link className="underlined-link" href="https://www.bdba.org.uk/committee">committee members</Link> for more information about the Biggleswade & District Bus Association.
+                        Please contact one of our <Link className="underlined-link gap-[5px]" href="https://www.bdba.org.uk/committee">committee members <MdOutlineOpenInNew /></Link> for more information about the Biggleswade & District Bus Association.
                     </p>
 
                     <p>
-                        Our provider for the 855 and PS1 services is <Link className="underlined-link" href="https://www.expresslines.co.uk/">Expresslines</Link>.
+                        Our provider for the 855 and PS1 services is <Link className="underlined-link gap-[5px]" href="https://www.expresslines.co.uk/">Expresslines <MdOutlineOpenInNew /></Link>.
                     </p>
 
                     <p>
