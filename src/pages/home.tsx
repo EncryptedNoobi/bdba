@@ -19,7 +19,7 @@ export const Home = () => {
                     <p className="text-[14px]">We're a volunteer parent commitee, committed to providing buses for our children.</p>
                 </div>
                 
-                <div className="flex flex-row items-center gap-[10px]">
+                <div className="flex flex-row items-center gap-[10px] phone:flex-wrap">
                     <a href="/routes">
                         <Button variant="secondary">
                             View routes
@@ -35,7 +35,7 @@ export const Home = () => {
 
             </div>
 
-            {/* Bus selector */}
+            {/* Bus Selector */}
             <RouteSelector />
 
             {/* News */}

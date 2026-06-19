@@ -21,7 +21,7 @@ export const Membership = () => {
                     </p>
                 </div>
 
-                <div className="flex flex-row items-center gap-[10px]">
+                <div className="flex flex-row items-center gap-[10px] phone:flex-wrap">
                     <a href="/files/Constitution_October_2015.pdf">
                         <Button variant="secondary">
                             BDBA Constitution

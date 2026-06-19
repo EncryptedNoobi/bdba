@@ -11,7 +11,7 @@ export const News = () => {
                     Latest News
                 </h1>
 
-                <div className="grid grid-cols-2 gap-[10px] items-stretch justify-center phone:flex-wrap overflow-x-hidden">
+                <div className="grid grid-cols-2 phone:grid-cols-1 gap-[10px] items-stretch justify-center phone:flex-wrap overflow-x-hidden">
 
                     <NewsCard
                         title={"Updated Site Design"}
@@ -56,7 +56,7 @@ export const NewsCard = ({ title, date, description }: any) => {
 
     return (
         <div className="flex-1">
-            <Card className="bg-(--secondary-colour) h-full w-full border-[3px] border-(--tertiary-colour)">
+            <Card className="bg-(--secondary-colour) h-full w-full border-[3px] border-(--tertiary-colour) overflow-hidden">
                 <Card.Header>
                     <h1 className="font-[700] text-[20px]">{title}</h1>
                     <p className="font-[600] text-[13px]">{date}</p>

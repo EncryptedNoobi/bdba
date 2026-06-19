@@ -101,7 +101,7 @@ export const Navbar = () => {
 
 export const MobileNavbarDrawer = ({ mobileNavbarOpen, setMobileNavbarOpen }: any) => {
 
-        const [mobileDropdownOpen, setMobileDropdownOpen] = useState(false);
+    const [mobileDropdownOpen, setMobileDropdownOpen] = useState(false);
 
     return (
         <>
@@ -163,10 +163,10 @@ export const MobileNavbarDrawer = ({ mobileNavbarOpen, setMobileNavbarOpen }: an
                                 </a>
 
                                 {/*<a href="/other-info">
-                            <Button variant="secondary" className="w-full">
-                                Other Info
-                            </Button>
-                        </a>*/}
+                                    <Button variant="secondary" className="w-full">
+                                        Other Info
+                                    </Button>
+                                </a>*/}
 
                             </div>
 

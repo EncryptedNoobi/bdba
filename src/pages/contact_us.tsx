@@ -18,7 +18,7 @@ export const ContactUs = () => {
                     <p className="text-[14px]">How to get in touch with us.</p>
                 </div>
 
-                <div className="flex flex-row items-center gap-[10px]">
+                <div className="flex flex-row items-center gap-[10px] phone:flex-wrap">
                     <a href="/committee">
                         <Button variant="secondary">
                             Our Committee
@@ -28,7 +28,7 @@ export const ContactUs = () => {
 
             </div>
 
-            {/* Rules */}
+            {/* Contact Us */}
             <div className="bg-(--primary-colour) p-[100px_10%_50px_10%] flex flex-col gap-[10px]">
 
                 <div className="flex flex-col gap-[20px]">

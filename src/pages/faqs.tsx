@@ -63,7 +63,7 @@ export const FAQs = () => {
 
                         <h1 className="text-[30px] font-semibold">What are the benefits to using the bus?</h1>
 
-                        <ol className="list-decimal list-inside ps-5">
+                        <ol className="list-decimal ps-5 space-y-2">
                             <li>The Association provides a dedicated bus with a termly designated driver for the exclusive use of the Association Members' school pupils</li>
                             <li>The Association is able to consider additional boarding points on the routes, provided that these boarding points are both practical and safe</li>
                             <li>The timetable is based on school start of day and end of day times</li>

@@ -18,7 +18,7 @@ export const BusRoutes = () => {
 
             </div>
 
-            {/* Bus selector */}
+            {/* Bus Selector */}
             <RouteSelector />
 
         </>
